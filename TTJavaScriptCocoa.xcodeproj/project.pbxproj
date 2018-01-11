@@ -1,0 +1,561 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A908BDB42005D50F0085CA5B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A908BDB32005D50F0085CA5B /* AppDelegate.m */; };
+		A908BDBA2005D50F0085CA5B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A908BDB82005D50F0085CA5B /* Main.storyboard */; };
+		A908BDBC2005D50F0085CA5B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A908BDBB2005D50F0085CA5B /* Assets.xcassets */; };
+		A908BDBF2005D50F0085CA5B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A908BDBD2005D50F0085CA5B /* LaunchScreen.storyboard */; };
+		A908BDC22005D50F0085CA5B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A908BDC12005D50F0085CA5B /* main.m */; };
+		A908BDCC2005D50F0085CA5B /* TTJavaScriptCocoaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A908BDCB2005D50F0085CA5B /* TTJavaScriptCocoaTests.m */; };
+		A908BDD72005D50F0085CA5B /* TTJavaScriptCocoaUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A908BDD62005D50F0085CA5B /* TTJavaScriptCocoaUITests.m */; };
+		A908BDE62005D75E0085CA5B /* TTJavaScriptCocoaManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A908BDE52005D75E0085CA5B /* TTJavaScriptCocoaManager.m */; };
+		A908BDE82005DC620085CA5B /* abc.html in Resources */ = {isa = PBXBuildFile; fileRef = A908BDE72005DC610085CA5B /* abc.html */; };
+		A908BDEB2005DC6F0085CA5B /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A908BDEA2005DC6F0085CA5B /* WebViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A908BDC82005D50F0085CA5B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A908BDA72005D50F0085CA5B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A908BDAE2005D50F0085CA5B;
+			remoteInfo = TTJavaScriptCocoa;
+		};
+		A908BDD32005D50F0085CA5B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A908BDA72005D50F0085CA5B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A908BDAE2005D50F0085CA5B;
+			remoteInfo = TTJavaScriptCocoa;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A908BDAF2005D50F0085CA5B /* TTJavaScriptCocoa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TTJavaScriptCocoa.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A908BDB22005D50F0085CA5B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A908BDB32005D50F0085CA5B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A908BDB92005D50F0085CA5B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A908BDBB2005D50F0085CA5B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A908BDBE2005D50F0085CA5B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A908BDC02005D50F0085CA5B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A908BDC12005D50F0085CA5B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A908BDC72005D50F0085CA5B /* TTJavaScriptCocoaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TTJavaScriptCocoaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A908BDCB2005D50F0085CA5B /* TTJavaScriptCocoaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TTJavaScriptCocoaTests.m; sourceTree = "<group>"; };
+		A908BDCD2005D50F0085CA5B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A908BDD22005D50F0085CA5B /* TTJavaScriptCocoaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TTJavaScriptCocoaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A908BDD62005D50F0085CA5B /* TTJavaScriptCocoaUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TTJavaScriptCocoaUITests.m; sourceTree = "<group>"; };
+		A908BDD82005D50F0085CA5B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A908BDE42005D75E0085CA5B /* TTJavaScriptCocoaManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TTJavaScriptCocoaManager.h; sourceTree = "<group>"; };
+		A908BDE52005D75E0085CA5B /* TTJavaScriptCocoaManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TTJavaScriptCocoaManager.m; sourceTree = "<group>"; };
+		A908BDE72005DC610085CA5B /* abc.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = abc.html; sourceTree = "<group>"; };
+		A908BDE92005DC6F0085CA5B /* WebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewController.h; sourceTree = "<group>"; };
+		A908BDEA2005DC6F0085CA5B /* WebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A908BDAC2005D50F0085CA5B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A908BDC42005D50F0085CA5B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A908BDCF2005D50F0085CA5B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A908BDA62005D50F0085CA5B = {
+			isa = PBXGroup;
+			children = (
+				A908BDB12005D50F0085CA5B /* TTJavaScriptCocoa */,
+				A908BDCA2005D50F0085CA5B /* TTJavaScriptCocoaTests */,
+				A908BDD52005D50F0085CA5B /* TTJavaScriptCocoaUITests */,
+				A908BDB02005D50F0085CA5B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A908BDB02005D50F0085CA5B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A908BDAF2005D50F0085CA5B /* TTJavaScriptCocoa.app */,
+				A908BDC72005D50F0085CA5B /* TTJavaScriptCocoaTests.xctest */,
+				A908BDD22005D50F0085CA5B /* TTJavaScriptCocoaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A908BDB12005D50F0085CA5B /* TTJavaScriptCocoa */ = {
+			isa = PBXGroup;
+			children = (
+				A908BDB22005D50F0085CA5B /* AppDelegate.h */,
+				A908BDB32005D50F0085CA5B /* AppDelegate.m */,
+				A908BDE72005DC610085CA5B /* abc.html */,
+				A908BDE92005DC6F0085CA5B /* WebViewController.h */,
+				A908BDEA2005DC6F0085CA5B /* WebViewController.m */,
+				A908BDE42005D75E0085CA5B /* TTJavaScriptCocoaManager.h */,
+				A908BDE52005D75E0085CA5B /* TTJavaScriptCocoaManager.m */,
+				A908BDB82005D50F0085CA5B /* Main.storyboard */,
+				A908BDBB2005D50F0085CA5B /* Assets.xcassets */,
+				A908BDBD2005D50F0085CA5B /* LaunchScreen.storyboard */,
+				A908BDC02005D50F0085CA5B /* Info.plist */,
+				A908BDC12005D50F0085CA5B /* main.m */,
+			);
+			path = TTJavaScriptCocoa;
+			sourceTree = "<group>";
+		};
+		A908BDCA2005D50F0085CA5B /* TTJavaScriptCocoaTests */ = {
+			isa = PBXGroup;
+			children = (
+				A908BDCB2005D50F0085CA5B /* TTJavaScriptCocoaTests.m */,
+				A908BDCD2005D50F0085CA5B /* Info.plist */,
+			);
+			path = TTJavaScriptCocoaTests;
+			sourceTree = "<group>";
+		};
+		A908BDD52005D50F0085CA5B /* TTJavaScriptCocoaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A908BDD62005D50F0085CA5B /* TTJavaScriptCocoaUITests.m */,
+				A908BDD82005D50F0085CA5B /* Info.plist */,
+			);
+			path = TTJavaScriptCocoaUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A908BDAE2005D50F0085CA5B /* TTJavaScriptCocoa */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A908BDDB2005D50F0085CA5B /* Build configuration list for PBXNativeTarget "TTJavaScriptCocoa" */;
+			buildPhases = (
+				A908BDAB2005D50F0085CA5B /* Sources */,
+				A908BDAC2005D50F0085CA5B /* Frameworks */,
+				A908BDAD2005D50F0085CA5B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TTJavaScriptCocoa;
+			productName = TTJavaScriptCocoa;
+			productReference = A908BDAF2005D50F0085CA5B /* TTJavaScriptCocoa.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A908BDC62005D50F0085CA5B /* TTJavaScriptCocoaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A908BDDE2005D50F0085CA5B /* Build configuration list for PBXNativeTarget "TTJavaScriptCocoaTests" */;
+			buildPhases = (
+				A908BDC32005D50F0085CA5B /* Sources */,
+				A908BDC42005D50F0085CA5B /* Frameworks */,
+				A908BDC52005D50F0085CA5B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A908BDC92005D50F0085CA5B /* PBXTargetDependency */,
+			);
+			name = TTJavaScriptCocoaTests;
+			productName = TTJavaScriptCocoaTests;
+			productReference = A908BDC72005D50F0085CA5B /* TTJavaScriptCocoaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A908BDD12005D50F0085CA5B /* TTJavaScriptCocoaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A908BDE12005D50F0085CA5B /* Build configuration list for PBXNativeTarget "TTJavaScriptCocoaUITests" */;
+			buildPhases = (
+				A908BDCE2005D50F0085CA5B /* Sources */,
+				A908BDCF2005D50F0085CA5B /* Frameworks */,
+				A908BDD02005D50F0085CA5B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A908BDD42005D50F0085CA5B /* PBXTargetDependency */,
+			);
+			name = TTJavaScriptCocoaUITests;
+			productName = TTJavaScriptCocoaUITests;
+			productReference = A908BDD22005D50F0085CA5B /* TTJavaScriptCocoaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A908BDA72005D50F0085CA5B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = iboxPay;
+				TargetAttributes = {
+					A908BDAE2005D50F0085CA5B = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					A908BDC62005D50F0085CA5B = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A908BDAE2005D50F0085CA5B;
+					};
+					A908BDD12005D50F0085CA5B = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A908BDAE2005D50F0085CA5B;
+					};
+				};
+			};
+			buildConfigurationList = A908BDAA2005D50F0085CA5B /* Build configuration list for PBXProject "TTJavaScriptCocoa" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A908BDA62005D50F0085CA5B;
+			productRefGroup = A908BDB02005D50F0085CA5B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A908BDAE2005D50F0085CA5B /* TTJavaScriptCocoa */,
+				A908BDC62005D50F0085CA5B /* TTJavaScriptCocoaTests */,
+				A908BDD12005D50F0085CA5B /* TTJavaScriptCocoaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A908BDAD2005D50F0085CA5B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A908BDBF2005D50F0085CA5B /* LaunchScreen.storyboard in Resources */,
+				A908BDE82005DC620085CA5B /* abc.html in Resources */,
+				A908BDBC2005D50F0085CA5B /* Assets.xcassets in Resources */,
+				A908BDBA2005D50F0085CA5B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A908BDC52005D50F0085CA5B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A908BDD02005D50F0085CA5B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A908BDAB2005D50F0085CA5B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A908BDE62005D75E0085CA5B /* TTJavaScriptCocoaManager.m in Sources */,
+				A908BDEB2005DC6F0085CA5B /* WebViewController.m in Sources */,
+				A908BDC22005D50F0085CA5B /* main.m in Sources */,
+				A908BDB42005D50F0085CA5B /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A908BDC32005D50F0085CA5B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A908BDCC2005D50F0085CA5B /* TTJavaScriptCocoaTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A908BDCE2005D50F0085CA5B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A908BDD72005D50F0085CA5B /* TTJavaScriptCocoaUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A908BDC92005D50F0085CA5B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A908BDAE2005D50F0085CA5B /* TTJavaScriptCocoa */;
+			targetProxy = A908BDC82005D50F0085CA5B /* PBXContainerItemProxy */;
+		};
+		A908BDD42005D50F0085CA5B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A908BDAE2005D50F0085CA5B /* TTJavaScriptCocoa */;
+			targetProxy = A908BDD32005D50F0085CA5B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A908BDB82005D50F0085CA5B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A908BDB92005D50F0085CA5B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A908BDBD2005D50F0085CA5B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A908BDBE2005D50F0085CA5B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A908BDD92005D50F0085CA5B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A908BDDA2005D50F0085CA5B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A908BDDC2005D50F0085CA5B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TTJavaScriptCocoa/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = www.iboxPay.com.TTJavaScriptCocoa;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A908BDDD2005D50F0085CA5B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TTJavaScriptCocoa/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = www.iboxPay.com.TTJavaScriptCocoa;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A908BDDF2005D50F0085CA5B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TTJavaScriptCocoaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = www.iboxPay.com.TTJavaScriptCocoaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TTJavaScriptCocoa.app/TTJavaScriptCocoa";
+			};
+			name = Debug;
+		};
+		A908BDE02005D50F0085CA5B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TTJavaScriptCocoaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = www.iboxPay.com.TTJavaScriptCocoaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TTJavaScriptCocoa.app/TTJavaScriptCocoa";
+			};
+			name = Release;
+		};
+		A908BDE22005D50F0085CA5B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TTJavaScriptCocoaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = www.iboxPay.com.TTJavaScriptCocoaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TTJavaScriptCocoa;
+			};
+			name = Debug;
+		};
+		A908BDE32005D50F0085CA5B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TTJavaScriptCocoaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = www.iboxPay.com.TTJavaScriptCocoaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TTJavaScriptCocoa;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A908BDAA2005D50F0085CA5B /* Build configuration list for PBXProject "TTJavaScriptCocoa" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A908BDD92005D50F0085CA5B /* Debug */,
+				A908BDDA2005D50F0085CA5B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A908BDDB2005D50F0085CA5B /* Build configuration list for PBXNativeTarget "TTJavaScriptCocoa" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A908BDDC2005D50F0085CA5B /* Debug */,
+				A908BDDD2005D50F0085CA5B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A908BDDE2005D50F0085CA5B /* Build configuration list for PBXNativeTarget "TTJavaScriptCocoaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A908BDDF2005D50F0085CA5B /* Debug */,
+				A908BDE02005D50F0085CA5B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A908BDE12005D50F0085CA5B /* Build configuration list for PBXNativeTarget "TTJavaScriptCocoaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A908BDE22005D50F0085CA5B /* Debug */,
+				A908BDE32005D50F0085CA5B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A908BDA72005D50F0085CA5B /* Project object */;
+}

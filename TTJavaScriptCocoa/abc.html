@@ -1,0 +1,39 @@
+<html>
+    <head>
+    <meta charset="UTF-8"/>
+    <title>测试网页</title>
+    <script>
+        //遍历数组
+        function ArrayFun(array)
+        {
+            for(var i = 0; i < array.length; i++)
+            {
+                alert(array[i]);
+            }
+        }
+        // 遍历字典
+        function DictionaryFun(dict)
+        {
+            for (var key in dict)
+            {
+                alert(key + " : " + dict[key]);
+            }
+        }
+        function changeColor(colorStr)
+        {
+            document.getElementsByTagName('body')[0].style.webkitTextFillColor= colorStr;
+        }
+    </script>
+    </head>
+    
+
+    <body>
+        <h1 style="color:blue" onclick="window.webkit.messageHandlers.show.postMessage([1,2]);">调用OC无参无返回值方法</h1>
+        <h1 style="color:blue" onclick="window.webkit.messageHandlers.changeTextColor.postMessage('changeColor');">修改文字颜色</h1>
+        <h1 style="color:blue" onclick="method.arrayTest([1,2,'hello oc', {'name':'jack'}]);">传递数组到OC</h1>
+        <h1 style="color:blue" onclick="method.dictTest({'name':'jack', 'data':[1, 'hello', {'age' : 10}]});">传递字典到OC</h1>
+        <h1 style="color:blue" onclick="DictionaryFun(method.returnDict());">从OC返回字典</h1>
+        <h1 style="color:blue" onclick="ArrayFun(method.returnArray());">从OC返回数组</h1>
+    </body>
+    
+</html>
